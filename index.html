@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4a1e473c30.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+</head>
+
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>HI! I am <span>Abhishekh</span><br>From <span2>In</span2><span3>d</span3><span4>ia</span4>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------about------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/about me.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Enthusiastic engineering graduate with basic knowledge in coding and design. Proficient in C++, HTML5, JavaScript. Ability to learn new softwares and technologies quickly. Capability to work in teams by providing
+                        valuable support. And have marketing skills and can do Product Branding also.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language:C++</span><br>Data Structure & Algorithm</li>
+                            <li><span>Problem Solving</span></li>
+                            <li><span>Web Development</span><br>HTML<br>CSS<br>JAVA SCRIPT</li>
+                            <li><span>Marketing and Sales</span><br>Products I Provided are:<br>1.The Journey of Stock
+                                Market <br>2.Instagram Dominance<br>3.Advanced Personality Development<br> and
+                                Communication Mastery etc</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-current</span><br>FrontEnd Web Developer</li>
+                            <li><span>2021-2022</span><br>Independent Affiliate At "The Digital Kaksha"</li>
+                            <li><span>2020-2021</span><br>Subject Matter Expert At Solvelancer</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>Persuing B.Tech in Electronics And Commuication Engineering
+                                From Deenbandhu Chhoturam University Of Science And Technology,Murthal</li>
+                                <li><span>2018-2020</span><br>Thukral Public School,Loharu</li>
+                            <li><span>2007-2018</span><br>BRCM Public School,Gyankunj</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------services---------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">
+                My Services
+            </h1>
+            <div class="services-List">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Heyy! I am FrontEnd Web Developer and i have a currently skilled in HTML,CSS,JavaScript</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-people-group"></i>
+                    <h2> Marketing</h2>
+                    <p>I have done work as Independent Affiliate at The Digital Kaksha and provided the services of how to be skilled in diffrent domains. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-circle-question"></i>
+                    <h2>Subject Expert</h2>
+                    <p>I am Subject Matter Expert at Solvelancer,Chegg and various platform to help the students to resolve their doubts.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------Portfolio------------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-List">
+                <div class="work">
+                    <img src="image/work1edit.jpg">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>This Website will help you to find whatever you want to buy including
+                            clothes,accessories,electronic items etc..</p>
+                        <a href="https://mittal-shop.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work2edit.jpg">
+                    <div class="layer">
+                        <h3>Fitness Website</h3>
+                        <p>If you are Fitness freak and want your dream physique then you are at right place This
+                            website will help you to join the GYM near you and do the workout</p>
+                        <a href="https://physical-health.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Disney.jpg">
+                    <div class="layer">
+                        <h3>Disney+ Hotstar  </h3>
+                        <p>Disney+ Hotstar is a popular subscription-based streaming service owned and operated by The Walt Disney
+                            Company. It combines content from Disney, Pixar, Marvel, Star Wars, and National Geographic, making it a
+                            comprehensive entertainment platform </p>
+                        <a href="https://disneyhotstar25.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/travel.jpeg">
+                    <div class="layer">
+                        <h3>Travel Website</h3>
+                        <p>Travel websites are online platforms that provide information, tools, and services to help travelers plan and
+                            book various aspects of their trips</p>
+                        <a href="https://mittal-tour-travels.netlify.app/ " target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- ---------------contact------------- -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> abhishekhmittal25@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7419347110</p>
+
+                    <div class="social-Icons">
+                        <a href="https://www.instagram.com/abhishekhmittal25/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/abhishek.mittal.58323" target="_blank"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/abhishekh025/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Abhishekh025" target="_blank"><iconify-icon icon="simple-icons:github"></iconify-icon></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1gncdTCoFW0KNyuCqObtxRUeQpwRoTYFh/view?usp=sharing" target="_blank" class="btn btn2">Downlaod CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="myform" name="submit-to-google-sheet" action="https://formspree.io/f/xoqokrvl" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Phone Number" placeholder="Mobile no" required>
+                        <input type="email" name="Email Address" placeholder="Your Mail Id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Abhishekh. 2023 All Right Preserved</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.target.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        // const scriptURL = 'https://script.google.com/macros/s/AKfycbwnupWszEk1JrXGok1bPu9xGF7MKAyGng4Kfob1M5WCwBOtqj4G1on77_7f-6U5Oj7uNA/exec'
+        // const form = document.forms['submit-to-google-sheet']
+        // const msg = document.getElementById("msg");
+        // // const userName = document.getElementById("userName");
+
+        // form.addEventListener('submit', e => {
+        //     e.preventDefault()
+        //     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        //         .then(response => {
+        //             msg.innerHTML = "Message sent successfully"
+        //             setTimeout(function () {
+        //                 msg.innerHTML = ""
+        //             }, 1000)
+        //             form.reset();
+        //         })
+        //         .catch(error => console.error('Error!', error.message))
+        // })
+    </script>
+</body>
+
+</html>
